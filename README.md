@@ -1,6 +1,6 @@
 # Restaurant Review App
 
-The Restaurant Review App is a responsive site where you can search for nearby restaurants, read customer's reviews and see the restaurant's hours.
+The Restaurant Reviews site is a responsive site where you can search for nearby restaurants, read customer's reviews and see the restaurant's hours.
 
 ## Getting Started
 
@@ -20,4 +20,4 @@ The Restaurant Review App is a responsive site where you can search for nearby r
 #### Python 3
 * python -m http.server 8000
 
-* Visit localhost:8000 in your browser to open the website.
+Visit localhost:8000 in your browser to open the website.
