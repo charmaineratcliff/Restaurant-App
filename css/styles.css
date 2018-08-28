@@ -153,8 +153,7 @@ nav h1 a {
   min-height: 380px;
   padding: 0 0 15px;
   text-align: left;
-  min-width: 270px;
-	max-width: 33%
+	max-width: 85%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -166,7 +165,7 @@ nav h1 a {
 }
 #restaurants-list li h1 {
   color: #761412;
-	height: 50px;
+	height: 25px;
 	font-family: Arial,sans-serif;
   font-size: 1.5em;
   font-weight: 200;
@@ -175,13 +174,6 @@ nav h1 a {
   margin: 20px 0 10px;
   text-transform: uppercase;
 	padding: 0 20px;
-	border-bottom: 1px solid;
-}
-#restaurants-list h1 + p {
-  font-size: 1em;
-	color: #761412;
-	width: 86%;
-	text-align: right;
 }
 #restaurants-list p {
 	margin: 0;
@@ -295,20 +287,32 @@ nav h1 a {
 }
 /* ====================== Media Responsiveness ====================== */
 
-@media (min-width: 458px) {
+@media (min-width: 460px) {
 	.filter-options {
 		text-align: left;
 	}
+}
+@media (min-width: 600px) {
 	#restaurants-list li {
-		max-width: 33%;
+		max-width: 42%;
+	}
+	#restaurants-list li h1 {
+		height: 35px;
 	}
 }
-@media (min-width: 780px) {
+@media (min-width: 930px) {
+	#restaurant-list li {
+		max-width: 30%;
+	}
+	#restaurant-list p {
+		width: 66%;
+	}
+	#restaurants-list li h1 {
+		height: 41px;
+	}
 	.inside header {
 		position: fixed;
 		top: 0;
-		width: 100%;
-		z-index: 1000;
 	}
 	.inside #map-container {
 		background: blue none repeat scroll 0 0;
