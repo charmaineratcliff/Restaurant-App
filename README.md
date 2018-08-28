@@ -1,6 +1,6 @@
 # Restaurant Review App
 
-The Restaurant Reviews site is a responsive site where you can search for nearby restaurants, read customer's reviews and see the restaurant's hours.
+The Restaurant Reviews site is a responsive site where you can search for nearby restaurants, read customers' reviews and see the restaurant's hours.
 
 ## Getting Started
 
