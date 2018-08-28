@@ -22,7 +22,7 @@ a {
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #3397db;
+	color: #FFF0A6;
 	text-decoration: none;
 }
 a img{
@@ -40,7 +40,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 100%;
 }
 #footer {
-  background-color: #252831;
+  background-color: #761412;
   color: #aaa;
   font-size: 0.8em;
   letter-spacing: 1px;
@@ -95,7 +95,7 @@ nav h1 a {
 
 /* Add a color on mouse-over */
 #breadcrumb li a:hover {
-    color: #01447e;
+    color: #761412;
     text-decoration: underline;
 }
 /* ====================== Map ====================== */
@@ -350,11 +350,11 @@ nav h1 a {
     width: 90%;
   }
   #restaurant-container {
-    width: 45%;
+    width: 44%;
     padding: 140px 40px 30px;
   }
 	#reviews-container {
-		width: 45%;
+		width: 46%;
 		padding: 40px 30px;
 	}
   #restaurant-cuisine {
@@ -366,6 +366,6 @@ nav h1 a {
   .inside #footer {
     bottom: 0;
     position: absolute;
-    width: 45%;
+    width: 46%;
 	}
 }
